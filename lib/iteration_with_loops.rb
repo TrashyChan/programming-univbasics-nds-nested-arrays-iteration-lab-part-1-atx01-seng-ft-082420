@@ -1,15 +1,15 @@
 def find_even_values(src)
   
-  row_index = 0 
+  chickens = 0 
   
-  while row_index < src.count do
-    element_index = 0 
-    while element_index < src[row_index].count do
-      if src[row_index][element_index].even?
-        p src[row_index][element_index]
+  while chickens < src.count do
+    eggs = 0 
+    while eggs < src[chickens].count do
+      if src[chickens][eggs].even?
+        p src[chickens][eggs]
       end
-      element_index += 1 
+      eggs += 1 
     end
-    row_index += 1
+    chickens += 1
   end
 end
