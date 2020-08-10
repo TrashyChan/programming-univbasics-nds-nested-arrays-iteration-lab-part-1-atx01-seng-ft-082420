@@ -9,11 +9,10 @@ array_of_arrays = [
   ]
   
   row_index = 0
-  count = 0
   
-  while row_index < array_of_arrays.count do
+  while row_index < src.count do
     element_index = 1
-    while element_index < array_of_arrays[row_index].count do
+    while element_index < src[row_index].count do
       array_of_arrays[row_index][element_index]
       element_index += 2 
     end
